@@ -1,0 +1,52 @@
+{
+  "name": "@leonlafa/gridsome-source-crypto-compare",
+  "version": "1.0.2",
+  "description": "A gridsome source plugin for the crypto compare api",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonlafa/gridsome-source-crypto-compare.git"
+  },
+  "keywords": [
+    "npm",
+    "gridsome",
+    "gridsome-source",
+    "crypto",
+    "crypto-compare",
+    "crypto-currency",
+    "bitcoin",
+    "ethereum",
+    "litecoin",
+    "leonlafa"
+  ],
+  "author": "Leon Lafayette(leonlafa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonlafa/gridsome-source-crypto-compare/issues"
+  },
+  "homepage": "https://github.com/leonlafa/gridsome-source-crypto-compare#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.6.4"
+  }
+}
