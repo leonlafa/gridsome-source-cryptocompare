@@ -1,6 +1,6 @@
 {
   "name": "@leonlafa/gridsome-source-crypto-compare",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A gridsome source plugin for the crypto compare api",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
