@@ -7,8 +7,8 @@
 
 ## Install
 
-- `yarn add gridsome-source-crypto-compare`
-- `npm install gridsome-source-crypto-compare`
+- `yarn add gridsome-source-cryptocompare`
+- `npm install gridsome-source-cryptocompare`
 
 A gridsome source plugin for the Crypto Compare API.   
 
