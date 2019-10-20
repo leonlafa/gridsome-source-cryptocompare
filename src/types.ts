@@ -108,7 +108,7 @@ export interface IOptions {
   tsym?: string;
   ascending?: boolean;
   sign?: boolean;
-  APIKey: string;
+  apiKey: string;
 }
 
 export enum API {

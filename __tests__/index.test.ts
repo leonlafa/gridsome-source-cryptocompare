@@ -88,7 +88,7 @@ describe('Helper Functions', () => {
 
   describe('mergeOptions()', () => {
     const expectedResult = {
-      "APIKey": "mockApiKey",
+      "apiKey": "mockApiKey",
       "ascending": true,
       "limit": 20,
       "page": 50,
@@ -97,7 +97,7 @@ describe('Helper Functions', () => {
     }
 
     it('should merge default and user defined options', () => {
-      let result = mergeOptions()({ APIKey: 'mockApiKey', limit: 20 });
+      let result = mergeOptions()({ apiKey: 'mockApiKey', limit: 20 });
       expect(result).toEqual(expectedResult);
     });
   });
@@ -113,7 +113,7 @@ describe('API Request', () => {
   mockAxios.mockResolvedValue({});
 
   xit('should call the API with default options', async () => {
-    await test({}, { APIKey: mockAPIKey })
+    await test({}, { apiKey: mockAPIKey })
     expect(mockAxios).toHaveBeenCalledWith(`${mockRequestWithDefaultOptions}&api_key=${mockAPIKey}`);
     mockAxios.mockClear()
   });
@@ -121,13 +121,13 @@ describe('API Request', () => {
   xit('should call the API with merged, default and user defined options', async () => {
     const mockUserOptions = {
       limit: 30,
-      APIKey: 'userProvidedAPIKey'
+      apiKey: 'userProvidedAPIKey'
     }
     const mockAPIRequest = `${url}?limit=${mockUserOptions.limit}&tsym=${mockTsymb}`
 
-    await test({},{ limit: 30, APIKey: mockUserOptions.APIKey });
+    await test({},{ limit: 30, apiKey: mockUserOptions.apiKey });
 
-    expect(mockAxios).toHaveBeenCalledWith(`${mockAPIRequest}&api_key=${mockUserOptions.APIKey}`);
+    expect(mockAxios).toHaveBeenCalledWith(`${mockAPIRequest}&api_key=${mockUserOptions.apiKey}`);
 
     mockAxios.mockClear()
   });

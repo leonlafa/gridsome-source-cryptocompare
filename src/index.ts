@@ -19,7 +19,7 @@ module.exports = async (
       const {
         data: { Data }
       } = await axios.get(
-        `${API.TOP_LIST_BY_24H_VOLUME_URI}?limit=${_options.limit}&tsym=${_options.tsym}&api_key=${_options.APIKey}`
+        `${API.TOP_LIST_BY_24H_VOLUME_URI}?limit=${_options.limit}&tsym=${_options.tsym}&api_key=${_options.apiKey}`
       );
 
       if (Data)

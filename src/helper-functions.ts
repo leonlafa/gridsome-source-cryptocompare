@@ -72,7 +72,7 @@ export const mergeOptions = () => {
     tsym: "GBP",
     sign: false,
     ascending: true,
-    APIKey: ""
+    apiKey: ""
   };
   return (userDefinedOpts: IOptions): IOptions => {
     Object.keys(userDefinedOpts).forEach(key => {
