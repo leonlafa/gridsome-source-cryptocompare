@@ -1,5 +1,9 @@
-# gridsome/transformer-remark
+# gridsome-source-crypto-compare
 ![](gridsome-plugin-source-crypto-compare-logo.png)
+
+ [![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat-square&color=lightgrey)]()
+![Hackage-Deps](https://img.shields.io/hackage-deps/v/up?color=green&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/leonlafa/node-type-express?style=flat-square&color=blue)
 
 ## Install
 
@@ -11,7 +15,6 @@ A gridsome source plugin for the Crypto Compare API.
 
 ## Features
 To date the plugin only offers 'Toplist by 24H Volume Subscriptions' data.   Plans to addd more API calls are in the pipeline.
-
 
 ## Basic usage
 
@@ -77,3 +80,6 @@ The currency symbol to convert into [ Min length - 1] [ Max length - 10]
 - Required: `false`
 
 If set to true, the server will sign the requests (by default we don't sign them), this is useful for usage in smart contracts [ Default - false]
+
+### Usage
+https://min-api.cryptocompare.com/pricing
