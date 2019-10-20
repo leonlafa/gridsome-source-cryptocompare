@@ -10,12 +10,15 @@ module.exports = async (api: any = {}, userDefinedOptions: IOptions): Promise<an
              const collection = actions.addCollection('CryptoCompare');
             const { data: { Data } } = await axios
                 .get(`${API.TOP_LIST_BY_24H_VOLUME_URI}?limit=${_options.limit}&tsym=${_options.tsym}&api_key=${_options.APIKey}`);
+
             const source = Data.map((coin: any) => {
                 return {
                     info: mapCoinInfoData(coin.CoinInfo),
                     display: mapDisplayData(coin.DISPLAY, <string>_options.tsym)
                 }
             });
+
+            console.log(`Successfully returned ${source.length} result from Crypto Compare!`)
 
             for (const item of source) {
                 collection.addNode({

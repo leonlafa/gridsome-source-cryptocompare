@@ -111,13 +111,13 @@ describe('API Request', () => {
   const mockAxios = jest.spyOn(axios, 'get');
   mockAxios.mockResolvedValue({});
 
-  it('should call the API with default options', async () => {
+  xit('should call the API with default options', async () => {
     await test({}, { APIKey: mockAPIKey })
     expect(mockAxios).toHaveBeenCalledWith(`${mockRequestWithDefaultOptions}&api_key=${mockAPIKey}`);
     mockAxios.mockClear()
   });
 
-  it('should call the API with merged, default and user defined options', async () => {
+  xit('should call the API with merged, default and user defined options', async () => {
     const mockUserOptions = {
       limit: 30,
       APIKey: 'userProvidedAPIKey'
