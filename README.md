@@ -5,16 +5,15 @@
 ![Hackage-Deps](https://img.shields.io/hackage-deps/v/up?color=green&style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/leonlafa/node-type-express?style=flat-square&color=blue)
 
+A gridsome source plugin for the Crypto Compare API.   
+
 ## Install
 
 - `yarn add gridsome-source-cryptocompare`
 - `npm install gridsome-source-cryptocompare`
 
-![](npm-readme.png)
 
-https://www.npmjs.com/package/gridsome-source-cryptocompare
-
-A gridsome source plugin for the Crypto Compare API.   
+<a href="http://google.com.au/" rel="some text">![Foo](npm-readme.png)</a>
 
 ## Features
 To date the plugin only offers 'Toplist by 24H Volume Subscriptions' data.   Plans to addd more API calls are in the pipeline.
