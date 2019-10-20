@@ -8,6 +8,7 @@ describe('Helper Functions', () => {
   describe('mapCoinInfoData()', () => {
     it('should pass when the function returns an object of type ICoinInfo', () => {
       const expectedResult = {
+        id: "1182",
         name: { symbol: 'BTC', fullName: 'Bitcoin' },
         image: '/media/19633/btc.png',
         url: '/coins/btc/overview',
