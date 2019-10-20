@@ -1,4 +1,4 @@
-# gridsome-source-crypto-compare
+# gridsome-source-cryptocompare
 ![](gridsome-plugin-source-crypto-compare-logo.png)
 
  [![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat-square&color=lightgrey)]()
