@@ -22,7 +22,19 @@
     "type": "git",
     "url": "git+https://github.com/leonlafa/gridsome-source-crypto-compare.git"
   },
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "gridsome",
+    "gridsome-source",
+    "gridsome-plugin",
+    "crypto",
+    "crypto-compare",
+    "crypto-currency",
+    "bitcoin",
+    "ethereum",
+    "litecoin",
+    "leonlafa"
+  ],
   "author": "Leon Lafayette(leonlafa)",
   "license": "MIT",
   "bugs": {
