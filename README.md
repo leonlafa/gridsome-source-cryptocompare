@@ -6,6 +6,13 @@
 - `yarn add gridsome-source-crypto-compare`
 - `npm install gridsome-source-crypto-compare`
 
+
+A gridsome source plugin for the Crypto Compare API.   
+
+## Features
+To date the plugin only offers 'Toplist by 24H Volume Subscriptions' data.   Plans to addd more API calls are in the pipeline.
+
+
 ## Basic usage
 
 When your the project has successfully built a success message will appear to indicate that the API has connected  and results have been returned successfully.
