@@ -7,6 +7,7 @@
 
 <a href="https://www.npmjs.com/package/gridsome-source-crypto-compare" />
 <img src="npm-readme.png" />
+
 ## Install
 
 - `yarn add gridsome-source-crypto-compare`
