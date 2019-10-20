@@ -13,7 +13,7 @@ A gridsome source plugin for the Crypto Compare API.
 - `npm install gridsome-source-cryptocompare`
 
 
-<a href="http://google.com.au/" rel="some text">![Foo](npm-readme.png)</a>
+<a href="https://www.npmjs.com/package/gridsome-source-cryptocompare" rel="npm">![Foo](npm-readme.png)</a>
 
 ## Features
 To date the plugin only offers 'Toplist by 24H Volume Subscriptions' data.   Plans to addd more API calls are in the pipeline.
