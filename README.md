@@ -10,6 +10,10 @@
 - `yarn add gridsome-source-cryptocompare`
 - `npm install gridsome-source-cryptocompare`
 
+![](npm-readme.png)
+
+https://www.npmjs.com/package/gridsome-source-cryptocompare
+
 A gridsome source plugin for the Crypto Compare API.   
 
 ## Features
