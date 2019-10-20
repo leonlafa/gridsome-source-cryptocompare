@@ -24,7 +24,8 @@ module.exports = async (
 
       if (Data)
         console.log(
-          chalk.bgHex("#3FBB90").bold.hex("#1F344A")(" SUCCESS ") + chalk.hex("#3FBB90")(` ${Data.length} ${message}`)
+          chalk.bgHex("#3FBB90").bold.hex("#1F344A")(" SUCCESS ") +
+            chalk.hex("#3FBB90")(` ${Data.length} ${message}`)
         );
 
       const source = Data.map((coin: any) => {
