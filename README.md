@@ -5,7 +5,7 @@
 ![Hackage-Deps](https://img.shields.io/hackage-deps/v/up?color=green&style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/leonlafa/node-type-express?style=flat-square&color=blue)
 
-A gridsome source plugin for the Crypto Compare API.   
+A gridsome source plugin for the CryptoCompare API.   
 
 ## Install
 
