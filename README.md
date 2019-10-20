@@ -5,7 +5,7 @@
 ![Hackage-Deps](https://img.shields.io/hackage-deps/v/up?color=green&style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/leonlafa/node-type-express?style=flat-square&color=blue)
 
-A gridsome source plugin for the CryptoCompare API.   
+A gridsome source plugin for the <a href="https://min-api.cryptocompare.com">CryptoCompare</a> API.   
 
 ## Install
 
@@ -83,8 +83,6 @@ The currency symbol to convert into [ Min length - 1] [ Max length - 10]
 
 If set to true, the server will sign the requests (by default we don't sign them), this is useful for usage in smart contracts [ Default - false]
 
-### Usage
-https://min-api.cryptocompare.com/pricing
 
 ## Was this plugin useful?
 
