@@ -18,7 +18,7 @@ module.exports = async (api: any = {}, userDefinedOptions: IOptions): Promise<an
                 }
             });
 
-            console.log(`Successfully returned ${source.length} result from Crypto Compare!`)
+            console.log(`Successfully returned ${source.length} results from Crypto Compare!`)
 
             for (const item of source) {
                 collection.addNode({
