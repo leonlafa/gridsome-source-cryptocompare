@@ -45,7 +45,7 @@ module.exports = {
 - Default:  `not-set`
 - Required: `false`
 
-_refer to the CryptoCompare API docs for information about API keys:_
+_refer to the CryptoCompare API docs for more information about API keys:_
 https://min-api.cryptocompare.com/documentation
 
 #### limit:
