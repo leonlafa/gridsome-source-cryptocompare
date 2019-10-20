@@ -39,43 +39,41 @@ module.exports = {
 
 #### apiKey:
 - Type: `string`
-- Default:  not-set
-- Required: false
+- Default:  `not-set`
+- Required: `false`
 
 _refer to the CryptoCompare API docs for information about API keys:_
 https://min-api.cryptocompare.com/documentation
 
 #### limit:
-- Type: `string`
-- Default:  not-set
-- Required: false
+- Type: `number`
+- Default:  `10`
+- Required: `false`
 
 The number of coins to return in the toplist, default 10, min 10, max 100 will round to steps of 10 coins [ Min - 10] [ Max - 100] [ Default - 10]
 
 #### page:
-- Type: `string`
-- Default:  not-set
-- Required: false
+- Type: `number`
+- Default:  `0`
+- Required: `false`
 
 The pagination for the request. If you want to paginate by 50 for example, pass in the limit_toplist param the value 50 and increasing page_toplist integer values, 0 would return coins 0-50, 1 returns coins 50-100 [ Min - 0] [ Default - 0]
 
 #### currency:
 - Type: `string`
-- Default:  not-set
-- Required: true
+- Default:  `'GPB'`
+- Required: `true`
 
 The currency symbol to convert into [ Min length - 1] [ Max length - 10]
 
 #### ascending:
-- Type: `string`
-- Default:  not-set
-- Required: false
-
-[ Default - true]
+- Type: `boolean`
+- Default:  `true`
+- Required: `false`
 
 #### sign:
-- Type: `string`
-- Default:  not-set
-- Required: false
+- Type: `boolean`
+- Default:  `false`
+- Required: `false`
 
 If set to true, the server will sign the requests (by default we don't sign them), this is useful for usage in smart contracts [ Default - false]
