@@ -5,11 +5,12 @@
 ![Hackage-Deps](https://img.shields.io/hackage-deps/v/up?color=green&style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/leonlafa/node-type-express?style=flat-square&color=blue)
 
+<a href="https://www.npmjs.com/package/gridsome-source-crypto-compare" />
+<img src="npm-readme.png" />
 ## Install
 
 - `yarn add gridsome-source-crypto-compare`
 - `npm install gridsome-source-crypto-compare`
-
 
 A gridsome source plugin for the Crypto Compare API.   
 
