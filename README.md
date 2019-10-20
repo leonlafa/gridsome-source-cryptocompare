@@ -1,1 +1,3 @@
-## THIS PROJECT IS WIP!
+# gridsome-source-crypto-compare
+
+This plugin in WIP.   ETA 27/10/19.

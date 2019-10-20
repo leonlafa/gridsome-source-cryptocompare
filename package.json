@@ -1,6 +1,6 @@
 {
-  "name": "@leonlafa/gridsome-source-crypto-compare",
-  "version": "1.0.7",
+  "name": "gridsome-source-crypto-compare",
+  "version": "0.0.1",
   "description": "A gridsome source plugin for the crypto compare api",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -23,16 +23,6 @@
     "url": "git+https://github.com/leonlafa/gridsome-source-crypto-compare.git"
   },
   "keywords": [
-    "npm",
-    "gridsome",
-    "gridsome-source",
-    "crypto",
-    "crypto-compare",
-    "crypto-currency",
-    "bitcoin",
-    "ethereum",
-    "litecoin",
-    "leonlafa"
   ],
   "author": "Leon Lafayette(leonlafa)",
   "license": "MIT",
@@ -48,5 +38,10 @@
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/node": "^12.11.1",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0"
   }
 }
