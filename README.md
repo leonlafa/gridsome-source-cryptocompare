@@ -30,7 +30,7 @@ Custom options can be passed to the plugin, this should be done inside __gridsom
 module.exports = {
   plugins: [
     {
-      use: 'grid-source-crypto-compare',
+      use: 'grid-source-cryptocompare',
       options: {
         apiKey: 'your-api-key',
         limit: 20,
