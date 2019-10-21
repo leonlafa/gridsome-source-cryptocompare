@@ -16,11 +16,16 @@ A gridsome source plugin for the <a href="https://min-api.cryptocompare.com">Cry
 <a href="https://www.npmjs.com/package/gridsome-source-cryptocompare" rel="npm">![Foo](npm-readme.png)</a>
 
 ## Features
-To date the plugin only offers 'Toplist by 24H Volume Subscriptions' data.   Plans to addd more API calls are in the pipeline.
+
+To date the plugin only offers _'Toplist by 24H Volume Subscriptions'_.   Plans to addd more API calls are in the pipeline. 
+- Price _(the plugin only supports single tsyms ATM)_
+- Historical Data
+- Pair Mapping
+- News Articles
 
 ## Basic usage
 
-When your the project has successfully built a success message will appear to indicate that the API has connected  and results have been returned successfully.
+When your the project has successfully built a success message will appear to indicate that the API has connected  and results have been returned from the API.
 
 ![](gridsoe-crypto-compare-success.png)
 
@@ -55,21 +60,21 @@ https://min-api.cryptocompare.com/documentation
 - Default:  `10`
 - Required: `false`
 
-The number of coins to return in the toplist, default 10, min 10, max 100 will round to steps of 10 coins [ Min - 10] [ Max - 100] [ Default - 10]
+The number of coins to return in the toplist, default 10, min 10, max 100 will round to steps of 10 coins.
 
 #### page:
 - Type: `number`
 - Default:  `0`
 - Required: `false`
 
-The pagination for the request. If you want to paginate by 50 for example, pass in the limit_toplist param the value 50 and increasing page_toplist integer values, 0 would return coins 0-50, 1 returns coins 50-100 [ Min - 0] [ Default - 0]
+The pagination for the request. 0 would return coins 0-50, 1 returns coins 50-100.
 
 #### currency:
 - Type: `string`
 - Default:  `'GPB'`
 - Required: `true`
 
-The currency symbol to convert into [ Min length - 1] [ Max length - 10]
+The currency symbol to convert into.
 
 #### ascending:
 - Type: `boolean`
@@ -81,12 +86,11 @@ The currency symbol to convert into [ Min length - 1] [ Max length - 10]
 - Default:  `false`
 - Required: `false`
 
-If set to true, the server will sign the requests (by default we don't sign them), this is useful for usage in smart contracts [ Default - false]
-
-
+If set to true, the server will sign the requests (by default we don't sign them), this is useful for usage in smart contracts. 
+ 
 ## Was this plugin useful?
 
-If you found this template _useful_,
+If you found this plugin _useful_,
 please ⭐️the project to show your appreciation!
 <br>
 In the spirit of open-source, share this project with others in the community who might find it useful 😀 
