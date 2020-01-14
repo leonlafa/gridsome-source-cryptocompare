@@ -25,7 +25,7 @@ To date the plugin only offers _'Toplist by 24H Volume Subscriptions'_.   Plans 
 
 ## Basic usage
 
-When your the project has successfully built a success message will appear to indicate that the API has connected  and results have been returned from the API.
+When your project has successfully built a success message will appear to indicate that the API has connected  and results have been returned from the API.
 
 ![](gridsoe-crypto-compare-success.png)
 
