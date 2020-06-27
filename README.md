@@ -91,7 +91,7 @@ If set to true, the server will sign the requests (by default we don't sign them
 ## Was this plugin useful?
 
 If you found this plugin _useful_,
-please ⭐️the project to show your appreciation!
+please ⭐️ the project to show your appreciation!
 <br>
 In the spirit of open-source, share this project with others in the community who might find it useful 😀 
 
